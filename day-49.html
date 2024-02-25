@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>CSS BOX MODEL</title>
+    <style>
+
+        *{
+         margin: 0px;
+        }
+
+        .box{
+             background-color:rgb(175, 175, 235);
+             border: 2px solid red;
+             height: 50px;
+             width: 200px;
+             overflow: hidden;
+             box-sizing: border-box;
+        }
+
+        .box-1{
+            /*  margin: 10px; */
+             padding: 10px;
+             margin: 5px;
+        }
+
+        .box-2{
+           /*   margin: 20px; */
+            padding: 5px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+     <div>
+
+        <div class="box-1 box"> This is box-1 Lorem m. Quaerat  repr </div>
+        <div class="box-2 box"> This is box-2 Lorem am dolorum cupie.</div>
+
+        </div>
+
+</body>
+</html>

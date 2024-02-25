@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text</title>
+    <style>
+             /* word break */
+             .common{
+                width: 300px;
+                border: 1px solid brown;
+             }
+             #nop{
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+             }
+     
+            .wrdbrk{
+          
+                word-break: break-all;
+            }
+
+            .wrdbrkkeep{
+        
+                word-break: keep-all;
+                white-space: nowrap;
+            }
+            /* text-overflow begins */
+            .txtOverflowClip{
+   
+                height: 30px;
+       
+                text-overflow: clip;
+                overflow: hidden;
+                margin-bottom: 2px;
+                white-space: nowrap;
+            }
+             .txtOverflowEllipis{
+                width: 300px;
+                height: 30px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+
+             }
+             .txtOverflowEllipis:hover{
+                overflow: visible;
+             }
+    </style>
+</head>
+<body>
+    <div id=" common nop"><h1>Word  Break in CSS</h1>
+    <div class=" common wrdbrk">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cumque ut tempora vel nesciunt minus id totam dolor natus, iure animi magni obcaecati.</div>
+     <div class=" common wrdbrkkeep">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores provident saepe iste ea dolorem quia obcaecati iusto, beatae nam perferendis </div>
+    </div>
+    <h1>Text</h1>
+     <div class=" common txtOverflowClip">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam quis nulla dolores repellendus eius hic libero error ducimus vero esse!</div>
+      <div class="common txtOverflowEllipis">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus quod inventore itaque repellendus nobis debitis voluptas explicabo a</div>
+    </body>
+</html>

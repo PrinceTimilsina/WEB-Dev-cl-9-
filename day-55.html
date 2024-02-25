@@ -1,0 +1,48 @@
+<HTML>
+    <head>
+        <tite>
+        </tite>
+        <style>
+            body{
+                background-color:#f4f4f4;
+            }
+            .main{
+                text-align: center;
+            }
+            .image-border{
+                padding:20px;
+                background-color:#fff;
+                border:20px solid ;
+                background-image:url("wall.jpg");
+                background-repeat: round;
+                border-image-slice:30%;
+            }
+            .box-1,
+            .box-2,
+            .box-3{
+                padding:20px;
+                background-color:#fff;
+                border:20px solid transparent;
+                display:inline-block;
+                border-image-slice: 30%;
+            }
+            .box-1{
+                background: linear-gradient(90deg, rgb(204, 202, 240) 0%, rgba(16,16,221,1) 62%, rgba(0,212,255,1) 100%);
+            }
+            .box-2{
+                border-image-source: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(15,15,150,1) 19%, rgba(0,212,255,1) 100%)
+            }
+            .box-3{
+                border-image-source: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(15,15,150,1) 19%, rgba(0,212,255,1) 100%)
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="image-border">Ïmage Border</div>
+            <div class="box-1">Box-1</div>
+            <div class="box-2">Box-2 </div>
+            <div class="box-3">Box-3</div>
+        </div>
+    </body>
+</HTML>

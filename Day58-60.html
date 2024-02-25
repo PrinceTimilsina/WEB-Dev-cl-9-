@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Home-Page</title>
+    <style>
+      
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            line-height: 20px;
+            color: whitesmoke;
+            size: 4px solid;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-top: 115px;
+         
+        }
+     
+        header{
+            color: blue;
+            font-size: 30px ;
+            display: flex;
+           
+        }
+        #linear{
+            height: 250px;
+            width: 250px;
+            background-color: white;
+            border-radius: 18px;
+            top: 45%;
+            background-image: linear-gradient(blue,pink);
+        }
+  /* -      .radial{
+            height: 250px;
+            width: 250px;
+   
+            background-image: radial-gradientI(blue,pink,black);
+        } */
+        #conic{
+            height: 200px;
+            width: 200px;
+            background-color: green;
+            border-radius: 18px;
+            /* background-image: conic-gradient(pink 45deg,rgb(34, 0, 128) 90deg,blue 60deg,rgb(48, 48, 48) 70deg,pink 45deg,rgb(201, 201, 201) 90deg,blue 60deg,black 70deg); */
+            background-image: conic-gradient(green,pink,red);
+
+        }
+        #circle{
+            height: 250px;
+            width: 250px;
+            background-color: white;
+            border-radius: 18px;
+            background-image: radial-gradient(circle,red,green,blue,black);
+        }
+        #con3{
+            height: 250px;
+            width: 250px;
+            border-radius: 18px;
+            background-image: repeating-conic-gradient(blue 20%,pink 40%);
+        }
+    </style>
+</head>
+<body>
+   
+    <header>
+        CSS Gradient:
+    </header>
+        <div id="linear"  >Linear</div>
+
+    <!-- <div class="radial"></div> -->
+
+    <div id="conic">Conic</div>
+    <div id="circle" >Radial</div>
+
+    <div id="con3">
+              Repeating Conic
+    </div>
+    <br><br>
+ 
+</body>
+</html> 
+

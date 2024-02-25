@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navbar</title>
+    <style>
+           *{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            width: 80%;
+            height: 50px;
+            margin: 0px auto;
+            background: rgb(25, 25, 59);
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+            
+        }
+        .navbar ul{
+            list-style-type: none; 
+        }
+        .navbar ul li{
+          float: left;
+          font-size: 20px;
+          width: 217px;
+          line-height: 50px;
+          text-align: center;
+          border-left: 1px solid #fff;
+           position: relative;
+          }
+            .navbar ul li a{
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            }
+        .navbar ul li a:hover {
+            background-color: #4b4b6bbf;
+        }
+        .navbar ul ul{
+         background-color: #6b7ba3;
+        position: absolute;
+        display: none;
+         }
+         .navbar ul li:hover >ul{
+            display: block;
+         } 
+         .navbar ul ul ul{
+            left: 100%;
+            top: 0px;
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li> <a href="#">HOME</a></li>
+                    <li><a href="#">PRODUCTS</a>
+                     <ul> <li>Apple
+                        <ul>
+                            <li>Mac-Book-AIR</li>
+                            <li>Iphone-15-Pro</li>
+                            <li>Iphone-15-pro-max</li>
+                            <li>Air-pods</li>
+                        </ul>
+                     </li>
+                          <li>Samsung
+                            <ul>
+                                <li>S23-Ultra</li>
+                                <li>S22-Ultra</li>
+                                <li>J-prime</li>
+                                <li>S22-Pro</li>
+                            </ul>
+                          </li>
+                          <li>Android
+                            <ul>
+                                <li>Android 11</li>
+                                <li>Lenovo-ideal</li>
+                            </ul>
+                          </li>
+                                     </ul>                 
+                    </li>
+                    <li><a href="#">ABOUT US</a>
+                     <ul> <li>Contact no.9857678498423</li>
+                          <li></li>
+                          <li></li>
+                          </ul></li>
+                </ul>
+              
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
