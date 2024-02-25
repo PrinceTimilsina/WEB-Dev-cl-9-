@@ -1,0 +1,13 @@
+h1,h2{
+  color:blueviolet;
+  background-color: black;
+  font-family: 'Times New Roman', Times, serif;
+   /* border-color: rgb(50, 0, 10); 
+  border-width: 7px;
+  border-style: groove;  */
+  border: 7px groove rgb(50, 0, 10);
+  background-image: url(Wall.jpg);
+  border-image-source: url(R.jpeg);
+  border-image-repeat:round;
+  border-image-slice: 200px;
+}

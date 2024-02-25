@@ -1,0 +1,35 @@
+#Prince{
+        height: 400px;
+        width: 400px;
+        border-color: black;
+        border-style: groove;
+        padding:30px;
+        margin:50px;
+        margin-top:35px;
+        margin-bottom: 35px;
+        }
+ #hero{
+        border-color: blue;
+        border-style: groove;
+        border-width: thick;
+        /*
+        margin-left:100px;
+        height:110px;
+        width:250px;
+        */
+        /* resize:both;
+           this resize attribute allows visitor to change the size of border as their need 
+       */
+       margin-right:900px;
+       height:200px;
+        overflow: hidden; 
+     ;overflow: hidden;  */
+        text-indent: 250px;
+        color: brown;
+        text-align: center;
+        letter-spacing: 2.5px;
+        word-spacing: 4px;
+        line-height:30px;
+        direction: ltr;
+        text-shadow: 1.75px 1px rgb(0, 0, 0);
+ }
