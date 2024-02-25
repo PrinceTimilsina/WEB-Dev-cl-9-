@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .whole{
+        height: 300px;
+        width: 300px;
+    }
+    #dirTopBottom{
+              background-image: linear-gradient(blue,pink);
+    }
+    #dirLeftRight{
+            background-image: linear-gradient(to right,blue,pink);
+    }
+    #dirDiagonal{
+        background-image: linear-gradient(to bottom left,blue,pink);
+    }
+    /* radialGradient */
+    #radEvenly{
+        background-image: radial-gradient(blue,pink,red);
+    }
+    #radDifferently{
+        background-image: radial-gradient(blue 10%,pink 20%,red 70%);
+    }
+    #radDifferentlyCircle{
+        background-image: radial-gradient(circle,blue,pink,red);
+
+    }
+    /* conic gradient  */
+    #conicThree{
+        background-image:conic-gradient(red,blue,pink);
+    }
+    #conicThreeDegree{          
+        background-image: conic-gradient(red 45deg,blue 90deg,pink 90deg);
+    }
+    #conicPieChart{
+        background-image:conic-gradient(red,blue,pink,yellow,brown);
+        border-radius: 40%;
+
+    }
+    #conicRepeat{
+        background-image:repeating-conic-gradient(red 20%,blue 40%);
+        /* border-radius: 50%; */
+    }
+</style>
+<body>
+    <!-- //linear gradient -->
+    <div class="whole" id="dirTopBottom">      
+    </div>
+    <div class="whole" id="dirLeftRight"></div>
+    <div class="whole" id="dirDiagonal"></div>
+    <!-- radial gradient -->
+    <div class="whole" id="radEvenly"></div>
+    <div class="whole" id="radDifferently"></div>
+    <div class="whole" id="radDifferentlyCircle"></div>
+    <!-- conic gradient -->
+    <div class="whole" id="conicThree"></div>
+    <div class="whole" id="conicThreeDegree"></div>
+    <div class="whole" id="conicPieChart"></div>
+    <div class="whole" id="conicRepeat"></div>
+
+    <div></div>
+</div>
+</body>
+</html>

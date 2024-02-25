@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+         .container{
+            width: 40%;
+         }
+
+         .perAbsolute{
+            width: 40%;
+            background-color: blue;
+            color: aliceblue;
+         }
+         .container1{
+            width: 10px; /*it will always be 16px or it will not effect the emAbsoulute's container so, if we delete this it will not affect 320px*/
+         }
+         .emAbsolute{
+            width: 20em;  /* 1em=16px  */
+         }
+         .container2{
+            width: 10px; /*it will always be 16px or it will not effect the remAbsoulute's container so, if we delete this it will not affect 320px*/
+         }
+         .remAbsolute{
+            width: 20rem; /*1rem=16px*/
+         }
+         .container3{
+            height: 100px;
+            width: 200px;
+            border: 2px solid red;
+         }
+
+    </style>
+</head>
+<body>
+    <!-- <div class="container">
+    <div class="perAbsolute">Hello</div>
+    </div>
+    <div class="container1">
+        <div class="emAbsolute">
+            Hello
+        </div>
+    </div>
+    <div class="container2">
+        <div class="remAbsolute">
+            Hello
+        </div>
+    </div> -->
+    <h2>vh vw vmin vmax</h2>
+      <div class="container3">
+              <h2>Hello</h2>
+              <div class="vhVw">lorem</div>
+              <div class="vminVmax">vmin</div> 
+      </div>
+      
+</body>
+</html>
