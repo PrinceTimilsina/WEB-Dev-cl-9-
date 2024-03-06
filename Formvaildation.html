@@ -1,0 +1,34 @@
+<!--Date:2023/11/30 2080/08/14-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Valiation</title>
+    <link rel="stylesheet" href="Form.css">
+      <!-- <script defer src="form.js"></script>---->
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+         <h1>Registration</h1>
+         <div class="input-control">
+            <label for="username">Username</label>
+            <input id="username" name="username" type="text" required><!---here, if "reqired" is written and in 20th line type;email will be written then it check the  validity of email or username but the bad thing about this is that we can't really customize it so we are using javascript to do so... -->
+  <div class="error"></div>
+         </div>
+         <div class="input-control">
+            <label for="email">Email</label>
+            <input  id="email" name="email" type="email">
+         </div>
+         <div class="input-control">
+            <label for="password">Password</label>
+            <input  id="password" type="password" name="password">
+         </div>
+         <div class="input-control">
+            <label for="password">Password again</label>
+            <input id="password2" name="password2" type="password">
+         </div>
+          <button type="submit" name="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
